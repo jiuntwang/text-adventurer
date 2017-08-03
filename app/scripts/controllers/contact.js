@@ -1,19 +1,16 @@
-'use strict';
 
 /**
  * @ngdoc function
- * @name textAdventurerApp.controller:MainCtrl
+ * @name textAdventurerApp.controller:ContactCtrl
  * @description
- * # MainCtrl
+ * # AboutCtrl
  * Controller of the textAdventurerApp
  */
 angular.module('textAdventurerApp')
-  .controller('MainCtrl', function () {
+  .controller('ContactCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
   });
-
-  
